@@ -12,19 +12,31 @@
             background-color: #f8f8f8;
         }
         img.logo {
-            height: 50px; /* adjust this value for the desired logo size */
+            height: 50px; 
             margin-right: 15px;
+        }
+        .header-text {
+            display: flex;
+            flex-direction: column;
         }
         h1 {
             font-size: 1.5em;
             color: #333;
+            margin: 0;
+        }
+        h3, h4 {
+            margin: 0; /* Remove default margin to prevent unwanted space */
         }
     </style>
 </head>
 <body>
     <header>
         <img src="path/to/your-logo.png" alt="Company Logo" class="logo">
-        <h1>Your Website Name</h1>
+        <div class="header-text">
+            <h1>Inspiring Thoughts, Building Tomorrow</h1>
+            <h3>The Philippine Education System</h3>
+            <h3>Matatag Curriculum</h3>
+        </div>
     </header>
 </body>
 </html>
